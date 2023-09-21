@@ -11,7 +11,7 @@ function HomePage() {
         recipes for you to enjoy too! I only recommend the ones that I
         personally have tried and have been happy with. It has to be worth the
         time and effort! I always use{" "}
-        <a href="https://www.bbcgoodfood.com/" target="_blank" rel={noreferrer}>
+        <a href="https://www.bbcgoodfood.com/" target="_blank" rel="noreferrer">
           BBC good food
         </a>{" "}
         for my recipes, because there is loads to choose from and it uses

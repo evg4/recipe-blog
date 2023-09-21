@@ -8,7 +8,7 @@ function Footer() {
       <a
         className={styles.a}
         target="_blank"
-        rel={noreferrer}
+        rel="noreferrer"
         href="https://www.bbcgoodfood.com/"
       >
         BBC good food
@@ -17,7 +17,7 @@ function Footer() {
       <a
         className={styles.a}
         target="_blank"
-        rel={noreferrer}
+        rel="noopener"
         href="https://unsplash.com/"
       >
         Unsplash
