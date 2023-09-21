@@ -4,12 +4,11 @@ import { NavLink } from "react-router-dom";
 
 function RecipesDesc() {
   const recipesDesc = recipeNames.sort().reverse();
-  console.log(recipesDesc);
   return (
     <ul>
       {recipesDesc.map((recipe) => {
         return (
-          <li>
+          <li key={recipe}>
             <NavLink to={recipe}>{recipe}</NavLink>
           </li>
         );

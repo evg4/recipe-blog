@@ -3,7 +3,7 @@ import Root from "../Root/Root";
 import HomePage from "../HomePage/HomePage";
 import About from "../About/About";
 import Recipes from "../Recipes/Recipes";
-import RecipesAsc from "../RecipesAsc/RecipesAsc";
+import SearchResults from "../SearchResults/SearchResults";
 import Recipe from "../Recipe/Recipe";
 import Contact from "../Contact/Contact";
 import {
@@ -19,7 +19,7 @@ const router = createBrowserRouter(
       <Route index element={<HomePage />} />
       <Route path="/about" element={<About />}></Route>
       <Route path="/recipes" element={<Recipes />}></Route>
-
+      <Route path="/recipes/search" element={<SearchResults />}></Route>
       <Route path="/recipes/:name" element={<Recipe />}></Route>
       <Route path="/contact" element={<Contact />}></Route>
     </Route>

@@ -4,12 +4,11 @@ import { NavLink } from "react-router-dom";
 
 function RecipesAsc() {
   const recipesAsc = recipeNames.sort();
-  console.log(recipesAsc);
   return (
     <ul>
       {recipesAsc.map((recipe) => {
         return (
-          <li>
+          <li key={recipe}>
             <NavLink to={recipe}>{recipe}</NavLink>
           </li>
         );

@@ -11,6 +11,7 @@ import { recipesArray, recipeNames } from "../../data/RecipeFiles";
 import BackButton from "../BackButton/BackButton";
 import RecipesAsc from "../RecipesAsc/RecipesAsc";
 import RecipesDesc from "../RecipesDesc/RecipesDesc";
+import SearchBar from "../SearchBar/SearchBar";
 
 function Recipes() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -24,6 +25,8 @@ function Recipes() {
         </button>{" "}
         <button onClick={() => setSearchParams({ order: "" })}>Reset</button>
         <RecipesAsc />
+        <SearchBar />
+        <br></br>
         <BackButton />
       </>
     );
@@ -36,6 +39,8 @@ function Recipes() {
         </button>{" "}
         <button onClick={() => setSearchParams({ order: "" })}>Reset</button>
         <RecipesDesc />
+        <SearchBar />
+        <br></br>
         <BackButton />
       </>
     );
@@ -58,6 +63,8 @@ function Recipes() {
             );
           })}
         </ul>
+        <SearchBar />
+        <br></br>
         <BackButton />
       </>
     );
