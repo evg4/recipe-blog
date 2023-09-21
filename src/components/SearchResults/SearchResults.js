@@ -1,5 +1,5 @@
 import React from "react";
-import { recipesArray, recipeNames } from "../../data/RecipeFiles";
+import { recipeNames } from "../../data/RecipeFiles";
 import BackButton from "../BackButton/BackButton";
 import SearchBar from "../SearchBar/SearchBar";
 import { useSearchParams, Link } from "react-router-dom";

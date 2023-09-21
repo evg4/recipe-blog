@@ -1,5 +1,5 @@
 import React from "react";
-import { recipesArray, recipeNames } from "../../data/RecipeFiles";
+import { recipeNames } from "../../data/RecipeFiles";
 import { NavLink } from "react-router-dom";
 
 function RecipesDesc() {
