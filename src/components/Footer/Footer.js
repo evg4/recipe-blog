@@ -17,7 +17,7 @@ function Footer() {
       <a
         className={styles.a}
         target="_blank"
-        rel="noopener"
+        rel="noreferrer"
         href="https://unsplash.com/"
       >
         Unsplash

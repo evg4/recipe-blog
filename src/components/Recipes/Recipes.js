@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Recipes.module.css";
 import { NavLink, useSearchParams } from "react-router-dom";
-import { recipesArray, recipeNames } from "../../data/RecipeFiles";
+import { recipesArray } from "../../data/RecipeFiles";
 import BackButton from "../BackButton/BackButton";
 import RecipesAsc from "../RecipesAsc/RecipesAsc";
 import RecipesDesc from "../RecipesDesc/RecipesDesc";
