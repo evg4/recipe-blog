@@ -25,7 +25,7 @@ function Recipe() {
               <img
                 className={styles.img}
                 height="300"
-                alt="image"
+                alt="the finished dish"
                 src={recipesArray[i].img}
               ></img>
             </div>

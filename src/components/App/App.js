@@ -1,4 +1,3 @@
-import styles from "./App.module.css";
 import Root from "../Root/Root";
 import HomePage from "../HomePage/HomePage";
 import About from "../About/About";

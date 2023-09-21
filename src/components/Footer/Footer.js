@@ -8,12 +8,18 @@ function Footer() {
       <a
         className={styles.a}
         target="_blank"
+        rel={noreferrer}
         href="https://www.bbcgoodfood.com/"
       >
         BBC good food
       </a>
       <span> </span>| All images from{" "}
-      <a className={styles.a} target="_blank" href="https://unsplash.com/">
+      <a
+        className={styles.a}
+        target="_blank"
+        rel={noreferrer}
+        href="https://unsplash.com/"
+      >
         Unsplash
       </a>
     </p>
