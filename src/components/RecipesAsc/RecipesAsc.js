@@ -2,7 +2,7 @@ import React from "react";
 import { recipesArray, recipeNames } from "../../data/RecipeFiles";
 import { NavLink } from "react-router-dom";
 
-function RecipesAsc() {
+function RecipesAsc(props) {
   const recipesAsc = recipeNames.sort();
   return (
     <ul>

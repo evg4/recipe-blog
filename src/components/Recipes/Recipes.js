@@ -18,21 +18,21 @@ function Recipes() {
   const sortOrder = searchParams.get("order");
   if (sortOrder === "ASC") {
     return (
-      <>
+      <div className={styles.container}>
         <h2>Recipes</h2>
         <button onClick={() => setSearchParams({ order: "DESC" })}>
           Sort Z-A
         </button>{" "}
         <button onClick={() => setSearchParams({ order: "" })}>Reset</button>
-        <RecipesAsc />
+        <RecipesAsc recipeInfo={recipesArray} />
         <SearchBar />
         <br></br>
         <BackButton />
-      </>
+      </div>
     );
   } else if (sortOrder === "DESC") {
     return (
-      <>
+      <div className={styles.container}>
         <h2>Recipes</h2>
         <button onClick={() => setSearchParams({ order: "ASC" })}>
           Sort A-Z
@@ -42,11 +42,11 @@ function Recipes() {
         <SearchBar />
         <br></br>
         <BackButton />
-      </>
+      </div>
     );
   } else {
     return (
-      <>
+      <div className={styles.container}>
         <h2>Recipes</h2>
         <button onClick={() => setSearchParams({ order: "ASC" })}>
           Sort A-Z
@@ -66,7 +66,7 @@ function Recipes() {
         <SearchBar />
         <br></br>
         <BackButton />
-      </>
+      </div>
     );
   }
 }

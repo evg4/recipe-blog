@@ -28,6 +28,8 @@ function SearchResults() {
               );
             })}
           </ul>
+          <SearchBar />
+          <BackButton />
         </>
       );
     } else {
@@ -54,11 +56,3 @@ function SearchResults() {
 }
 
 export default SearchResults;
-
-/*return (
-  <>
-    <p>Search results for: {recipeToFind}</p>
-    <SearchBar />
-    <BackButton />
-  </>
-);*/
