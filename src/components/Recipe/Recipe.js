@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import recipesArray from "../../data/RecipeFiles";
+import { recipesArray, recipeNames } from "../../data/RecipeFiles";
 import RecipeNotFound from "../RecipeNotFound/RecipeNotFound";
 import BackButton from "../BackButton/BackButton";
 
@@ -24,5 +24,3 @@ function Recipe() {
 }
 
 export default Recipe;
-
-//
